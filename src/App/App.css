@@ -1,0 +1,38 @@
+body {
+	background-color: #343246;
+	color: black;
+	padding: 32px;
+}
+
+h1 {
+	text-align: right;
+	font-family: 'Frijole', Georgia, serif;
+	font-size: 75px;
+	background-color: #4ED1EC;
+	padding-right: 20px;
+	padding-top: 0px;
+		z-index: 10;
+	margin-bottom: 100px;
+	margin: 0;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	opacity: 0.8;
+	z-index: 10;
+}
+
+#summary {
+	background-color: #a9a9a9;
+	padding: 10px 5px 10px 5px;
+	margin: 5px;
+}
+
+footer {
+	background-color: #343246;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	color: #CBDCE0;
+
+}
