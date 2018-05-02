@@ -11,7 +11,7 @@ class Ramblings extends React.Component {
 
         <h2 id="Date">.: Saturday October 28, 2017 :.</h2>
 
-        <article id="blogpost" class="article grid_8">
+        <article id="blogpost" className="article grid_8">
           <blockquote>"When we seek to destroy others, we often hurt ourself. Because it is the self that wants to be destroyed." <br/>- Pierce, Community</blockquote>
           <p>Tao of Seneca - Practical Letters from a Stoic Master</p>
           <p>On Saving Time</p>
@@ -20,14 +20,14 @@ class Ramblings extends React.Component {
           Nothing is ours except time, you cannot repay time
         </article>
 
-        <aside id="right" class="article grid_3">
+        <aside id="right" className="article grid_3">
           List of Blog Posts by Year
           <p>. </p>
         </aside>
 
-        <h2 id="Date" class="article grid_8">.: Sunday October 29, 2017 :.</h2>
+        <h2 id="Date" className="article grid_8">.: Sunday October 29, 2017 :.</h2>
 
-        <article id="blogpost" class="article grid_8">
+        <article id="blogpost" className="article grid_8">
           <blockquote>"When you really know who you are and what you like about yourself, changing for other people isn't such a big deal" <br/>- Abed, Community</blockquote>
           <p>Tao of Seneca - Practical Letters from a Stoic Master
           On Saving Time

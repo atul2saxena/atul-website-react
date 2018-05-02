@@ -7,7 +7,7 @@ class NavItem extends React.Component {
     //console.log(this);
     return (
       <div className="NavItem">
-        <a href={this.props.route}>{this.props.name}</a>
+        <a onClick={() => this.props.onClick(this.props.name)}>{this.props.name}</a>
       </div>
     );
   }
