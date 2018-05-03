@@ -1,14 +1,14 @@
 import React from 'react';
-//import './NavItem.css';
+import './NavItem.css';
 
 class NavItem extends React.Component {
 
   render () {
     //console.log(this);
     return (
-      <div className="NavItem">
-        <a href={this.props.route}>{this.props.name}</a>
-      </div>
+      <li>
+        <a onClick={() => this.props.onClick(this.props.name)}>{this.props.name}</a>
+      </li>
     );
   }
 }
